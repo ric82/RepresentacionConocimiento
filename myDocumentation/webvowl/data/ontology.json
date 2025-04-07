@@ -1,0 +1,2086 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations" ],
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "labels" : {
+      "undefined" : "Smart Tourism Recommendations"
+    },
+    "comments" : {
+      "undefined" : "Ontology destinated to Smart Tourism Recommendations"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Metro",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metro",
+      "undefined" : "Metro"
+    },
+    "comment" : {
+      "undefined" : "Underground urban railway system for passenger transport"
+    },
+    "id" : "2",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#TechnologyEvent",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechnologyEvent",
+      "undefined" : "Technology Event"
+    },
+    "comment" : {
+      "undefined" : "Conference, fair, or exhibition focused on technological innovations"
+    },
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#SportEvent",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportEvent",
+      "undefined" : "Sport Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#CádizCongress",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Conference center hosting business and cultural events in Cádiz"
+      },
+      "labels" : {
+        "IRI-based" : "CádizCongress",
+        "undefined" : "Cádiz Congress"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Competition, game, or gathering centered on sporting activities"
+    },
+    "id" : "32",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#MusicEvent",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MusicEvent",
+      "undefined" : "Music Event"
+    },
+    "comment" : {
+      "undefined" : "Concert, festival, or performance focused on musical expression"
+    },
+    "id" : "43",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Event",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "undefined" : "Event"
+    },
+    "subClasses" : [ "32", "50", "43", "20", "51" ],
+    "comment" : {
+      "undefined" : "Organized occasion occurring at a specific time and place"
+    },
+    "id" : "21",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Park",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park",
+      "undefined" : "Park"
+    },
+    "comment" : {
+      "undefined" : "Public recreational area with natural vegetation"
+    },
+    "id" : "35",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#LuxuryHotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel",
+      "undefined" : "Luxury Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#SolValenciaHotel",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Beachfront hotel in Valencia with sea views"
+      },
+      "labels" : {
+        "IRI-based" : "SolValenciaHotel",
+        "undefined" : "Sol Valencia Hotel"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Upscale hotel offering premium amenities and services"
+    },
+    "id" : "7",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#TouristHotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristHotel",
+      "undefined" : "Tourist Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#RoyalMadridHotel",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Luxury hotel in Madrid offering premium amenities"
+      },
+      "labels" : {
+        "IRI-based" : "RoyalMadridHotel",
+        "undefined" : "Royal Madrid Hotel"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Hotel specifically designed for leisure travelers"
+    },
+    "id" : "5",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#JapaneseCuisine",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapaneseCuisine",
+      "undefined" : "Japanese Cuisine"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#GourmetMadridRestaurant",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Fine dining establishment in Madrid offering premium cuisine"
+      },
+      "labels" : {
+        "IRI-based" : "GourmetMadridRestaurant",
+        "undefined" : "Gourmet Madrid Restaurant"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Restaurant offering traditional Japanese dishes and cooking styles"
+    },
+    "id" : "63",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Beach",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beach",
+      "undefined" : "Beach"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#CastilloCádiz",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Historic fortress in the coastal city of Cádiz"
+      },
+      "labels" : {
+        "IRI-based" : "CastilloCádiz",
+        "undefined" : "Castillo de Cádiz"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Coastal area with sand or pebbles suitable for recreation"
+    },
+    "id" : "42",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Bus",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus",
+      "undefined" : "Bus"
+    },
+    "comment" : {
+      "undefined" : "Road vehicle designed to carry multiple passengers"
+    },
+    "id" : "1",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#BudgetHotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BudgetHotel",
+      "undefined" : "Budget Hotel"
+    },
+    "intersection" : [ "31" ],
+    "comment" : {
+      "undefined" : "Affordable accommodation with basic amenities"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "30",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#MexicanCuisine",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanCuisine",
+      "undefined" : "Mexican Cuisine"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#TradicionToledoRestaurant",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Restaurant serving traditional Castilian cuisine in Toledo"
+      },
+      "labels" : {
+        "IRI-based" : "TradicionToledoRestaurant",
+        "undefined" : "Tradicion Toledo Restaurant"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Restaurant specializing in traditional Mexican dishes and flavors"
+    },
+    "id" : "82",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#PublicBicycle",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicBicycle",
+      "undefined" : "Public Bicycle"
+    },
+    "comment" : {
+      "undefined" : "Shared bicycle service available for public use"
+    },
+    "id" : "84",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Museum",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/ontology/Museum",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Museum",
+      "undefined" : "Museum"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#MadridMuseum",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Cultural institution preserving and exhibiting Madrid's history"
+      },
+      "labels" : {
+        "IRI-based" : "MadridMuseum",
+        "undefined" : "Madrid Museum"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#BarcelonaCathedral",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Gothic cathedral in the heart of Barcelona's Gothic Quarter"
+      },
+      "labels" : {
+        "IRI-based" : "BarcelonaCathedral",
+        "undefined" : "Barcelona Cathedral"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Institution that collects, preserves and displays objects of artistic, cultural, or scientific importance"
+    },
+    "id" : "37",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Tram",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tram",
+      "undefined" : "Tram"
+    },
+    "comment" : {
+      "undefined" : "Rail vehicle that runs on tracks along public urban streets"
+    },
+    "id" : "88",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Attraction",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction",
+      "undefined" : "Attraction"
+    },
+    "subClasses" : [ "35", "42", "40", "34", "37" ],
+    "comment" : {
+      "undefined" : "Place or feature that draws visitors due to its inherent interest or appeal"
+    },
+    "id" : "56",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#MediterraneanCuisine",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediterraneanCuisine",
+      "undefined" : "Mediterranean Cuisine"
+    },
+    "comment" : {
+      "undefined" : "Restaurant serving foods typical of Mediterranean countries"
+    },
+    "id" : "108",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Taxi",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxi",
+      "undefined" : "Taxi"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#TaxiBarcelona",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Private vehicles for moving people in Barcelona"
+      },
+      "labels" : {
+        "IRI-based" : "TaxiBarcelona",
+        "undefined" : "Taxi Barcelona"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Vehicle for hire with a driver, used for personal transportation"
+    },
+    "id" : "87",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#HighRatedRestaurant",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighRatedRestaurant",
+      "undefined" : "Highly Rated Restaurant"
+    },
+    "intersection" : [ "64" ],
+    "comment" : {
+      "undefined" : "Restaurant with exceptional customer reviews and ratings"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "113",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#ItalianCuisine",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItalianCuisine",
+      "undefined" : "Italian Cuisine"
+    },
+    "comment" : {
+      "undefined" : "Restaurant specializing in Italian food and cooking traditions"
+    },
+    "id" : "114",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "9",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#BeachHotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachHotel",
+      "undefined" : "Beach Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#RoyalBarcelonaHotel",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Upscale accommodation in central Barcelona"
+      },
+      "labels" : {
+        "IRI-based" : "RoyalBarcelonaHotel",
+        "undefined" : "Royal Barcelona Hotel"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Hotel located near a beach or with beach access"
+    },
+    "id" : "25",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#CulturalEvent",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalEvent",
+      "undefined" : "Cultural Event"
+    },
+    "comment" : {
+      "undefined" : "Event related to arts, heritage, or cultural expression"
+    },
+    "id" : "51",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/ontology/Restaurant",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "Restaurant"
+    },
+    "subClasses" : [ "108", "82", "118", "63", "113", "114" ],
+    "comment" : {
+      "undefined" : "Establishment where meals are prepared and served to customers"
+    },
+    "id" : "64",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#GastronomicEvent",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GastronomicEvent",
+      "undefined" : "Gastronomic Event"
+    },
+    "comment" : {
+      "undefined" : "Food or cuisine-centered gathering or festival"
+    },
+    "id" : "50",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Place",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place",
+      "undefined" : "Place"
+    },
+    "subClasses" : [ "64", "16", "59", "56", "21", "31" ],
+    "comment" : {
+      "undefined" : "Physical location with tourism relevance"
+    },
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#City",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Toledo",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Historic city in central Spain famous for its medieval architecture"
+      },
+      "labels" : {
+        "IRI-based" : "Toledo",
+        "undefined" : "Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Madrid",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Madrid",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Capital city of Spain with rich cultural heritage"
+      },
+      "labels" : {
+        "IRI-based" : "Madrid",
+        "undefined" : "Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Barcelona",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Major city in Catalonia, Spain, known for its architecture and beaches"
+      },
+      "labels" : {
+        "IRI-based" : "Barcelona",
+        "undefined" : "Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Zaragoza",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Historic city in northeastern Spain with Roman and Islamic heritage"
+      },
+      "labels" : {
+        "IRI-based" : "Zaragoza",
+        "undefined" : "Zaragoza"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Valencia",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Port city on Spain's southeastern coast known for futuristic architecture"
+      },
+      "labels" : {
+        "IRI-based" : "Valencia",
+        "undefined" : "Valencia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Cádiz",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Ancient port city in southwestern Spain"
+      },
+      "labels" : {
+        "IRI-based" : "Cádiz",
+        "undefined" : "Cádiz"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Urban settlement with defined boundaries and tourism infrastructure"
+    },
+    "id" : "59",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#CulturalAttraction",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalAttraction",
+      "undefined" : "Cultural Attraction"
+    },
+    "comment" : {
+      "undefined" : "Site of cultural significance that attracts visitors"
+    },
+    "id" : "40",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#BusinessHotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessHotel",
+      "undefined" : "Business Hotel"
+    },
+    "comment" : {
+      "undefined" : "Hotel catering to business travelers with appropriate facilities"
+    },
+    "id" : "18",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Transportation",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transportation",
+      "undefined" : "Transportation"
+    },
+    "subClasses" : [ "84", "88", "87", "2", "1" ],
+    "comment" : {
+      "undefined" : "Means of moving people or goods from one location to another"
+    },
+    "id" : "16",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Monument",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument",
+      "undefined" : "Monument"
+    },
+    "comment" : {
+      "undefined" : "Structure or site preserved for historical significance"
+    },
+    "id" : "34",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Tourist",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tourist",
+      "undefined" : "Tourist"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Pedro",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Tourist exploring cultural attractions in Spain"
+      },
+      "labels" : {
+        "IRI-based" : "Pedro",
+        "undefined" : "Pedro"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Maria",
+      "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+      "comment" : {
+        "undefined" : "Tourist visiting Spanish cities"
+      },
+      "labels" : {
+        "IRI-based" : "Maria",
+        "undefined" : "Maria"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Person who travels to and stays in places for leisure or business purposes"
+    },
+    "id" : "119",
+    "superClasses" : [ "126" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#RuralHotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RuralHotel",
+      "undefined" : "Rural Hotel"
+    },
+    "comment" : {
+      "undefined" : "Hotel located in countryside areas offering natural surroundings"
+    },
+    "id" : "4",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#AndalusianCuisine",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AndalusianCuisine",
+      "undefined" : "Andalusian Cuisine"
+    },
+    "comment" : {
+      "undefined" : "Restaurant serving traditional food from the Andalusia region of Spain"
+    },
+    "id" : "118",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Person",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "undefined" : "Person"
+    },
+    "subClasses" : [ "119" ],
+    "comment" : {
+      "undefined" : "Human individual who can interact with tourism resources"
+    },
+    "id" : "126"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#Hotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/ontology/Hotel",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hotel",
+      "undefined" : "Hotel"
+    },
+    "subClasses" : [ "25", "4", "7", "5", "18", "30" ],
+    "comment" : {
+      "undefined" : "Establishment providing accommodation, meals, and other services for travelers"
+    },
+    "id" : "31",
+    "superClasses" : [ "49" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "19",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "72",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "73",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "74",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "75",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "76",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "77",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "78",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "93",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "97",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "134",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "135",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "136",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "139",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "142",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "9",
+    "subproperty" : [ "10", "11", "12", "13", "14", "15" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "range" : "4",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "7",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "4",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "5",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "7",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "18",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "5",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "4",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "31",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#recommendedAttraction",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "recommendedAttraction",
+      "undefined" : "recommended attraction"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Suggests an attraction likely to appeal to a specific tourist"
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "13"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "37",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "35",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "34",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "35",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "35",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "37",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "40",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "31",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "31",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "37",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "34",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "31",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "31",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#location",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "location",
+      "undefined" : "location"
+    },
+    "domain" : "59",
+    "comment" : {
+      "undefined" : "Geographic position or region of a city"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#eventId",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "eventId",
+      "undefined" : "event ID"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "Unique identifier for an event"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#hotelId",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hotelId",
+      "undefined" : "hotel ID"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Unique identifier for a hotel"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#company",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "company",
+      "undefined" : "company"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Organization that operates a transportation service"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "69"
+  }, {
+    "range" : "32",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "20",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "20",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "20",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "20",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "32",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "32",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "43",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#restaurantId",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "restaurantId",
+      "undefined" : "restaurant ID"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "Unique identifier for a restaurant"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "79"
+  }, {
+    "range" : "43",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "50",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#recommendedRestaurant",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "recommendedRestaurant",
+      "undefined" : "recommended restaurant"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Suggests a restaurant that matches a tourist's dining preferences"
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#recommendedHotel",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "recommendedHotel",
+      "undefined" : "recommended hotel"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Suggests a hotel that matches a tourist's preferences"
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#averagePrice",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "averagePrice",
+      "undefined" : "average price"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "Typical cost of a meal at a restaurant"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "85"
+  }, {
+    "range" : "88",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "89"
+  }, {
+    "range" : "88",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "87",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "88",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "87",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "87",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "84",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "84",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#pricePerNight",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "pricePerNight",
+      "undefined" : "price per night"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Cost of staying one night at a hotel"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "98"
+  }, {
+    "range" : "88",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "21",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "56",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#transportationId",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "transportationId",
+      "undefined" : "transportation ID"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Unique identifier for a transportation service"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "104"
+  }, {
+    "range" : "56",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "21",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#nearbyAttraction",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "nearbyAttraction",
+      "undefined" : "nearby attraction"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Connects a hotel to attractions located in proximity"
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#isLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "isLocatedIn",
+      "undefined" : "is located in"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "49",
+    "comment" : {
+      "undefined" : "Relates an entity to the city where it is physically located"
+    },
+    "attributes" : [ "object", "asymmetric", "functional", "irreflexive" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#starRating",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "starRating",
+      "undefined" : "star rating"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Official classification of hotel quality using stars"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "109"
+  }, {
+    "range" : "21",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "21",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#averageCost",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "averageCost",
+      "undefined" : "average cost"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "ypical cost of using a transportation service"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#visitsCity",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "visitsCity",
+      "undefined" : "visits city"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "119",
+    "comment" : {
+      "undefined" : "Indicates the current city a tourist is visiting"
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "15"
+  }, {
+    "range" : "16",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "16",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#personId",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "personId",
+      "undefined" : "person ID"
+    },
+    "domain" : "126",
+    "comment" : {
+      "undefined" : "Unique identifier for a person"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "125"
+  }, {
+    "range" : "31",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "126",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "16",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "16",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "16",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "108",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "82",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "63",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "108",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "82",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "108",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "82",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "82",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#cityId",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "cityId",
+      "undefined" : "city ID"
+    },
+    "domain" : "59",
+    "comment" : {
+      "undefined" : "Unique identifier for a city"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "140"
+  }, {
+    "range" : "114",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "63",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#attractionId",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "attractionId",
+      "undefined" : "attraction ID"
+    },
+    "domain" : "56",
+    "comment" : {
+      "undefined" : "Unique identifier for an attraction"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "143"
+  }, {
+    "range" : "49",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#date",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "date",
+      "undefined" : "date"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "Calendar day when an event takes place"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "145"
+  }, {
+    "range" : "49",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "49",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "49",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "64",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "64",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "49",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#rating",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "rating",
+      "undefined" : "rating"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Numerical evaluation of quality or performance"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "152"
+  }, {
+    "range" : "49",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "64",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "64",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "64",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "56",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "56",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "64",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations#name",
+    "baseIri" : "http://www.semanticweb.org/rmart/ontologies/2025/3/SmartTourismRecommendations",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Title or designation of an entity"
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "160"
+  }, {
+    "range" : "56",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  } ]
+}
